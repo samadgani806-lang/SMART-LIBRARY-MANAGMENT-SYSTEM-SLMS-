@@ -10,13 +10,13 @@
         "TIMES BORROWED": 0
     },
     {
-        "ID": "",
-        "TITLE": "",
-        "AUTHOR": "",
-        "CATEGORY": "",
-        "YEAR": "",
-        "COPIES": "",
-        "AVALIBLE COPIES": "",
+        "ID": "NULL",
+        "TITLE": "NULL",
+        "AUTHOR": "NULL",
+        "CATEGORY": "NULL",
+        "YEAR": "NULL",
+        "COPIES": "NULL",
+        "AVALIBLE COPIES": "NULL",
         "TIMES BORROWED": 0
     }
 ]

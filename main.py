@@ -1,9 +1,10 @@
-import json              
+import json
+from config import BOOKS_FILE
 library_name = ("welcome to Smart Library Managment System(SMLS)")
 version = 1.0
 books = []
 #create a json file
-#function to create ID
+#Function to create ID
 # def create_ID():
 #    if not books:
 #       return "BK1001"
@@ -14,13 +15,13 @@ books = []
 
 #json function
 def save_books():
-    with open("books.json","w") as file:
+    with open(BOOKS_FILE,"w") as file:
          json.dump(books, file,indent=4)
 def load_books():
     global books
 
     try:
-        with open("books.json", "r") as file:
+        with open(BOOKS_FILE, "r") as file:
              books = json.load(file)
 
     except FileNotFoundError:
@@ -49,8 +50,7 @@ def show_menu():
  print ("10. Exit")
    
 
-
-#def book_management_menu():
+def book_management_menu():
     
 
  def Add_books():
@@ -95,6 +95,8 @@ def show_menu():
          
                  
  def edit_book():
+     
+     
       
 
   def delete_books():

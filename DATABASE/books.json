@@ -1,22 +1,12 @@
 [
     {
-        "ID": "4129",
-        "TITLE": "The amazing spiderman 3",
-        "AUTHOR": "bill cipher",
-        "CATEGORY": "action",
-        "YEAR": "2021",
-        "COPIES": "10098",
-        "AVALIBLE COPIES": "10098",
-        "TIMES BORROWED": 0
-    },
-    {
-        "ID": "NULL",
-        "TITLE": "NULL",
-        "AUTHOR": "NULL",
-        "CATEGORY": "NULL",
-        "YEAR": "NULL",
-        "COPIES": "NULL",
-        "AVALIBLE COPIES": "NULL",
+        "ID": "201",
+        "TITLE": "SPIDERMAN:brand new day",
+        "AUTHOR": "TOM HALLAND",
+        "CATEGORY": "ACTION,FICTION",
+        "YEAR": "2013",
+        "COPIES": "2000",
+        "AVALIBLE COPIES": "2000",
         "TIMES BORROWED": 0
     }
 ]

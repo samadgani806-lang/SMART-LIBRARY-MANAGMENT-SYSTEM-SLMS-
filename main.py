@@ -1,5 +1,7 @@
 import json
+from SERVICES.BOOK_SERVICE import *
 from config import BOOKS_FILE
+from SERVICES.STORAGE_SERVICE import *
 library_name = ("welcome to Smart Library Managment System(SMLS)")
 version = 1.0
 books = []
@@ -14,18 +16,8 @@ books = []
 
 
 #json function
-def save_books():
-    with open(BOOKS_FILE,"w") as file:
-         json.dump(books, file,indent=4)
-def load_books():
-    global books
 
-    try:
-        with open(BOOKS_FILE, "r") as file:
-             books = json.load(file)
-
-    except FileNotFoundError:
-         books = []                                                              
+books = []                                                              
 def clearscreen ():
    import os
    os.system("cls"if os.name == "nt" else "clear")
@@ -77,7 +69,7 @@ def book_management_menu():
            
        }
        books.append(book)
-       save_books()
+       save_data(BOOKS_FILE, books)
        print("BOOK ADDED SUCCESFULLY")
  def View_books():
       print (" VIEW BOOKS ")
@@ -96,15 +88,20 @@ def book_management_menu():
          
                  
  def edit_book():
+     edit_ans = input
+     print ("EDIT BOOKS")
+     print ("__" * 2)
+     print ("What would you like to edit ?")
+
      
      
       
 
-  def delete_books():
+ def delete_books():
             print ("\nDelete book")
 
 
- load_books()
+ load_data(BOOKS_FILE)
     
  while True:
         print("\n" + "=" * 40)
@@ -151,7 +148,9 @@ while True:
    show_header()
    show_menu()
      
-
+   add_books()
+   view_books()
+   
    choice  = input("Choose an option. ")
    if choice  == "1":
       book_management_menu()

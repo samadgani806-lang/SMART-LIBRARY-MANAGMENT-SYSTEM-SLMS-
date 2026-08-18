@@ -1,3 +1,4 @@
+from MEMBER_SERVICE import *
 from UTILES.HELPER import *
 from UTILES.CONSTANT import *
 from SERVICES.BOOK_SERVICE import *
@@ -75,6 +76,40 @@ def book_management_menu():
         input("\nPress Enter to continue...")
 
 
+def member_management_menu():
+
+ while True:
+        print("\n" + "=" * 40)
+        print("MEMBER MANAGMENT")
+        print("=" * 40)
+
+        print("1. Add Member")
+        print("2. View Member")
+        print("3. Edit Member")
+        print("4. Delete Member")
+        print("5. Back")
+
+        choice = input("\nChoose an option: ")
+
+        if choice == "1":
+           add_member()
+
+        elif choice == "2":
+            view_member()
+
+        elif choice == "3":
+            print ("\nEdit member")
+
+        elif choice == "4":
+            print("\nDelete Member")
+
+        elif choice == "5":
+            break
+
+        else:
+            print("\nInvalid Option.")
+
+        input("\nPress Enter to continue...")
 
 
 

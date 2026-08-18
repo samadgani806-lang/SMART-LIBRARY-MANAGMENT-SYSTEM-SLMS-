@@ -1,3 +1,4 @@
+from MEMBER_SERVICE import *
 from UTILES.HELPER import *
 from SERVICES.BOOK_SERVICE import *
 from config import BOOKS_FILE
@@ -27,7 +28,7 @@ while True:
    if choice  == "1":
       book_management_menu()
    elif choice  == "2":
-      print ("Member Managment")
+      member_management_menu()
    elif  choice  == "3":
       print ("Borrow Book")
    elif choice  == "4":

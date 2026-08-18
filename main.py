@@ -1,21 +1,11 @@
-
-
 from UTILES.HELPER import *
 from SERVICES.BOOK_SERVICE import *
 from config import BOOKS_FILE
 from SERVICES.STORAGE_SERVICE import *
 from UTILES.MENU import *
-library_name = ("welcome to Smart Library Managment System(SMLS)")
-version = 1.0
 
 #create a json file
 #Function to create ID
-# def create_ID():
-#    if not books:
-#       return "BK1001"
-
-#    HIGHEST_ID = max(int (book["ID"][2:]) for book in books)
-#    return f"BK{HIGHEST_ID + 1}"
 
 
 #json function

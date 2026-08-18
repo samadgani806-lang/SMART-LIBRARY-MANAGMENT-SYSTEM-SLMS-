@@ -1,3 +1,5 @@
+from UTILES.CONSTANT import *
+from UTILES.ID_GENERATOR import *
 from config import BOOKS_FILE
 from SERVICES.STORAGE_SERVICE import *
 
@@ -6,7 +8,9 @@ def Add_books():
        print("ADD NEW BOOKS")
        print("-"* 30)
        #ask for input
-       book_id = input("ID: ")
+       #book_id = generate_book_id(books, BOOK_ID_PREFIX, BOOK_START_ID)
+       book_id = input("BOOK ID: ") 
+        
        titl = input("TITLE: ")
        author = input("AUTHOR: ")
        category = input("CATEGORY: ")

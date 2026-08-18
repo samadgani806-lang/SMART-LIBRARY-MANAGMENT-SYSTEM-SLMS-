@@ -1,8 +1,10 @@
 from UTILES.HELPER import *
+from UTILES.CONSTANT import *
 from SERVICES.BOOK_SERVICE import *
 def show_header():
     print ("#" * 60)
-    print ("SMART LIBRARY MANAGMENY SYSTEM")
+    print (f"{APP_NAME:^60}")
+    print (f"Version: {VERSION:^60}")
     print ("#" * 60)
 def owner():
     print ("made by sama - Ganikal")

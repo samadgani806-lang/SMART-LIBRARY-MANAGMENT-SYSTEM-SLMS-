@@ -1,0 +1,10 @@
+APP_NAME = "Smart Library Management System (SMLS)"
+VERSION = 1.0
+
+BOOK_ID_PREFIX = "BK"
+
+MEMBER_ID_PREFIX = "MB"
+
+BOOK_START_ID = 1
+
+MEMBER_START_ID = 1   

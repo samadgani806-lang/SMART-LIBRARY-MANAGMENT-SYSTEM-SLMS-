@@ -18,5 +18,25 @@
         "COPIES": "2000",
         "AVALIBLE COPIES": "2000",
         "TIMES BORROWED": 0
+    },
+    {
+        "ID": "NULL",
+        "TITLE": "NULL",
+        "AUTHOR": "NULL",
+        "CATEGORY": "NULL",
+        "YEAR": "NULL",
+        "COPIES": "NULL",
+        "AVALIBLE COPIES": "NULL",
+        "TIMES BORROWED": 0
+    },
+    {
+        "ID": "2091",
+        "TITLE": "",
+        "AUTHOR": "",
+        "CATEGORY": "",
+        "YEAR": "",
+        "COPIES": "",
+        "AVALIBLE COPIES": "",
+        "TIMES BORROWED": 0
     }
 ]

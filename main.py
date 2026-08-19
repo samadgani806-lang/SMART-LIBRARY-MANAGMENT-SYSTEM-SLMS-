@@ -1,3 +1,4 @@
+from config import MEMBERS_FILE
 from MEMBER_SERVICE import *
 from UTILES.HELPER import *
 from SERVICES.BOOK_SERVICE import *

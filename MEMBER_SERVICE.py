@@ -1,17 +1,18 @@
 from config import MEMBERS_FILE
 from SERVICES.STORAGE_SERVICE import *
-members = []
+
+members = load_data(MEMBERS_FILE)
 def member_management_menu():
 
 
 #ask for input
 
 #book_id = generate_book_id(books, BOOK_ID_PREFIX, BOOK_START_ID)
-    load_data(MEMBERS_FILE)
-def add_member():
+
+ def add_member():
     member_id = input("MEMBER ID: ")                         
     name = input("NAME: ")
-    class_ = input("CLASS: ")
+    class_ = input ("CLASS: ")
     age  = input("AGE: ")
     branch = input("BRANCH: ")
     member = {
@@ -36,7 +37,7 @@ def view_member():
         print ("Member ID: ",member["ID"])
         print("Name: ",member["NAME"])
         print ("Class: ",member["CLASS"])
-        print ("Year: ",member["YEAR"])
+        print ("Age: ",member["AGE"])
         print ("Branch: ",member["BRANCH"])
         if len(members) == 0:
             print("There are no more members , PLEASE COME BACK LATER")

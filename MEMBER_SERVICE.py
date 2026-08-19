@@ -1,15 +1,17 @@
+
 from config import MEMBERS_FILE
 from SERVICES.STORAGE_SERVICE import *
 
 members = load_data(MEMBERS_FILE)
 def member_management_menu():
+    pass  # Placeholder for the function implementation
 
 
 #ask for input
 
 #book_id = generate_book_id(books, BOOK_ID_PREFIX, BOOK_START_ID)
 
- def add_member():
+def add_member():
     member_id = input("MEMBER ID: ")                         
     name = input("NAME: ")
     class_ = input ("CLASS: ")

@@ -1,4 +1,4 @@
-from MEMBER_SERVICE import *
+from SERVICES.MEMBER_SERVICE import *
 from UTILES.HELPER import *
 from UTILES.CONSTANT import *
 from SERVICES.BOOK_SERVICE import *

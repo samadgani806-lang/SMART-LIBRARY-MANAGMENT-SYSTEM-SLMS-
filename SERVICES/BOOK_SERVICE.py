@@ -1,3 +1,4 @@
+from SERVICES.MEMBER_SERVICE import *
 from UTILES.CONSTANT import *
 from UTILES.ID_GENERATOR import *
 from config import BOOKS_FILE
@@ -55,3 +56,5 @@ def View_books():
           if len(books) == 0:
                  print("There are no more books , PLEASE COME BACK LATER")
                  return
+
+

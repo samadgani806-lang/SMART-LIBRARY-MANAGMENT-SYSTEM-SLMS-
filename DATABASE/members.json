@@ -6,13 +6,18 @@
         "AGE": "18",
         "BRANCH": "E"
     },
-    
     {
         "ID": "2087",
         "NAME": "Mr stephan",
         "CLASS": "none",
         "AGE": "30",
         "BRANCH": "none"
+    },
+    {
+        "ID": "3456",
+        "NAME": "lashe",
+        "CLASS": "year 8",
+        "AGE": "12",
+        "BRANCH": "A"
     }
-
 ]

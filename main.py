@@ -1,3 +1,5 @@
+from UTILES.ABOUT_US import *
+from UTILES.CONSTANT import *
 from config import MEMBERS_FILE
 from MEMBER_SERVICE import *
 from UTILES.HELPER import *
@@ -41,7 +43,7 @@ while True:
    elif choice  == "8":
       print ("Backup Database")
    elif choice  == "9":
-      print ("About us")
+      about_us()
    elif choice  == "10":
       print ("Exit")
       print ("Thank you for using SLMS")

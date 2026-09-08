@@ -1,3 +1,4 @@
+from SERVICES.EDIT_MEMBER_SERVICE import *
 from SERVICES.MEMBER_SERVICE import *
 from UTILES.HELPER import *
 from UTILES.CONSTANT import *
@@ -98,7 +99,7 @@ def member_management_menu():
             view_member()
 
         elif choice == "3":
-            print ("\nEdit member")
+            edit_member()
 
         elif choice == "4":
             print("\nDelete Member")

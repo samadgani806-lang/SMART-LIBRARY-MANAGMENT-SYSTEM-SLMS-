@@ -1,6 +1,6 @@
 
-from config import MEMBERS_FILE
-from SERVICES.STORAGE_SERVICE import *
+from ..config import MEMBERS_FILE
+from .STORAGE_SERVICE import *
 
 members = load_data(MEMBERS_FILE)
 def member_management_menu():

@@ -39,8 +39,7 @@ def book_management_menu():
      
       
 
- def delete_books():
-            print ("\nDelete book")
+ 
 
 
 
@@ -68,7 +67,7 @@ def book_management_menu():
             edit_book()
 
         elif choice == "4":
-            print("\nDelete Book")
+            delete_book()
 
         elif choice == "5":
             break
@@ -104,7 +103,7 @@ def member_management_menu():
             edit_member()
 
         elif choice == "4":
-            print("\nDelete Member")
+            delete_member()
 
         elif choice == "5":
             break

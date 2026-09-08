@@ -31,3 +31,15 @@ def edit_book():
             print("Book updated successfully.")
             return
     print("Book not found.")
+
+
+def delete_book():
+    books = load_data(BOOKS_FILE)
+    book_id = input("Enter the ID of the book you want to delete: ")
+    for book in books:
+        if book["ID"] == book_id:
+            books.remove(book)
+            save_data(BOOKS_FILE, books)
+            print("Book deleted successfully.")
+            return
+    print("Book not found.")

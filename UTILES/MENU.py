@@ -1,3 +1,5 @@
+from config import *
+from SERVICES.EDIT_BOOK_SERVICE import *
 from SERVICES.EDIT_MEMBER_SERVICE import *
 from SERVICES.MEMBER_SERVICE import *
 from UTILES.HELPER import *
@@ -30,8 +32,8 @@ def book_management_menu():
            
          
                  
- def edit_book():
-     print ("\nEdit Book")
+ 
+     
 
      
      
@@ -63,7 +65,7 @@ def book_management_menu():
              View_books()
 
         elif choice == "3":
-            print ("\nEdit Book")
+            edit_book()
 
         elif choice == "4":
             print("\nDelete Book")

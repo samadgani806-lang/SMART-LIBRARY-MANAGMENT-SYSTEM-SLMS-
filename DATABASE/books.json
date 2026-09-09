@@ -10,23 +10,13 @@
         "TIMES BORROWED": 0
     },
     {
-        "ID": "NULL",
-        "TITLE": "NULL",
-        "AUTHOR": "NULL",
-        "CATEGORY": "NULL",
-        "YEAR": "NULL",
-        "COPIES": "NULL",
-        "AVALIBLE COPIES": "NULL",
-        "TIMES BORROWED": 0
-    },
-    {
-        "ID": "2091",
-        "TITLE": "",
-        "AUTHOR": "",
-        "CATEGORY": "",
-        "YEAR": "",
-        "COPIES": "",
-        "AVALIBLE COPIES": "",
+        "ID": "3",
+        "TITLE": "sameerah life story",
+        "AUTHOR": "samad",
+        "CATEGORY": "non-fiction",
+        "YEAR": "2026",
+        "COPIES": "10000",
+        "AVALIBLE COPIES": "10000",
         "TIMES BORROWED": 0
     }
 ]

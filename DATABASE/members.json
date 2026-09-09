@@ -19,5 +19,12 @@
         "CLASS": "year 8",
         "AGE": "12",
         "BRANCH": "A"
+    },
+    {
+        "ID": "1998",
+        "NAME": "Aishat",
+        "CLASS": "NONE",
+        "AGE": "40",
+        "BRANCH": "NONE"
     }
 ]

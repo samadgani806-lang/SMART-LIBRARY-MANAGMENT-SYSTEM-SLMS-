@@ -37,7 +37,7 @@ while True:
    elif choice  == "4":
       print ("Return Book")
    elif choice  == "5":
-      print ("Searh")
+      print ("Search")
    elif choice  == "7":
       print ("Report")
    elif choice  == "8":
